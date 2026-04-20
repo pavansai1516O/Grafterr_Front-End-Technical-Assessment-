@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafterr Landing Page</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/sections.css">
+</head>
+
+<body>
+    <div id="app">
+        <div id="loading-state" class="skeleton-container">
+            <div class="skeleton skeleton-hero"></div>
+            <div class="skeleton-grid">
+                <div class="skeleton skeleton-card"></div>
+                <div class="skeleton skeleton-card"></div>
+                <div class="skeleton skeleton-card"></div>
+            </div>
+        </div>
+
+        <div id="error-state" class="error-container" style="display:none;">
+            <p>Unable to load content. Please check your connection.</p>
+            <button id="retry-btn" class="cta-btn">Retry</button>
+        </div>
+
+        <main id="main-content" style="display:none;">
+            <section id="hero"></section>
+            <section id="features-section">
+                <div id="features" class="product-track"></div>
+                <div class="nav-controls">
+                    <button id="backBtn" class="nav-btn">←</button>
+                    <button id="nextBtn" class="nav-btn">→</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

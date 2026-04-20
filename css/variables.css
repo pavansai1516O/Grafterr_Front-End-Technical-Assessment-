@@ -1,0 +1,6 @@
+:root {
+  --primary-gradient: linear-gradient(135deg, #3b82f6, #f97316);
+  --bg-light: #f9fafb;
+  --text-dark: #1a1a1a;
+  --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}

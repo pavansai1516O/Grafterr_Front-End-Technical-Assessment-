@@ -1,0 +1,33 @@
+{
+  "hero": {
+    "headlinePrefix": "The Ultimate",
+    "headlineGradient": "technology provider",
+    "subHeadline": "Explore our success stories to see how businesses like yours have transformed with Grafterr's technology.",
+    "ctaText": "Learn More",
+    "growTitle": "More ways Grafterr can help you grow your business",
+    "growSub": "An award-winning end-to-end restaurant technology and payments platform."
+  },
+  "features": [
+    {
+      "id": 1,
+      "title": "Point of Sale",
+      "desc": "Fast and reliable hardware for busy environments.",
+      "img": "assets/images/pointOfSale.webp",
+      "targetLink": "https://www.grafterr.com/uk/products/epos-software"
+    },
+    {
+      "id": 2,
+      "title": "Self-service",
+      "desc": "Reduce wait times and increase average order value.",
+      "img": "assets/images/selfKiosk.webp",
+      "targetLink": "https://www.grafterr.com/uk/products/self-serve-kiosks"
+    },
+    {
+      "id": 3,
+      "title": "Kitchen Management",
+      "desc": "Organize your line and improve kitchen efficiency.",
+      "img": "assets/images/kitchenDisplay.webp",
+      "targetLink": "https://www.grafterr.com/uk/products/kitchen-display-system"
+    }
+  ]
+}

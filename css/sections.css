@@ -1,0 +1,72 @@
+#hero {
+  padding: 50px 10px;
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+}
+.hero-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.gradient-text {
+  background: var(--primary-gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+p {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.shape {
+  position: absolute;
+  opacity: 0.6;
+  z-index: -1;
+  animation: float 6s ease-in-out infinite;
+}
+.protractor {
+  top: 10%;
+  left: 5%;
+  width: 30px;
+}
+.cone {
+  bottom: 10%;
+  right: 5%;
+  width: 30px;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(-20px) rotate(10deg);
+  }
+}
+
+.skeleton-container {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.skeleton {
+  background: #eee;
+  border-radius: 12px;
+}
+.skeleton-hero {
+  height: 200px;
+  width: 80%;
+  margin: 0 auto;
+}
+.skeleton-grid {
+  display: flex;
+  gap: 20px;
+}
+.skeleton-card {
+  height: 300px;
+  flex: 1;
+}
